@@ -1,7 +1,7 @@
-Sistema de Gestión de Pedidos y Menús — Base de Datos
+# Sistema de Gestión de Pedidos y Menús — Base de Datos
 
-Este proyecto define el modelo de base de datos para la gestión de pedidos, productos, menús, adiciones y clientes de una pizzería.
-El diseño sigue un enfoque relacional simplificado (sin tablas de muchos a muchos), conservando únicamente las relaciones uno a muchos esenciales.
+** Este proyecto define el modelo de base de datos para la gestión de pedidos, productos, menús, adiciones y clientes de una pizzería.
+El diseño sigue un enfoque relacional simplificado (sin tablas de muchos a muchos), conservando únicamente las relaciones uno a muchos esenciales. **
 
 Estas son las consultas principales que permiten la ventas y pedidos de la pizzería.
 
