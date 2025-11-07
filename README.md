@@ -1,9 +1,9 @@
 # Sistema de Gestión de Pedidos y Menús — Base de Datos
 
-** Este proyecto define el modelo de base de datos para la gestión de pedidos, productos, menús, adiciones y clientes de una pizzería.
+**Este proyecto define el modelo de base de datos para la gestión de pedidos, productos, menús, adiciones y clientes de una pizzería.
 El diseño sigue un enfoque relacional simplificado (sin tablas de muchos a muchos), conservando únicamente las relaciones uno a muchos esenciales. 
 
-Estas son las consultas principales que permiten la ventas y pedidos de la pizzería. **
+Estas son las consultas principales que permiten la ventas y pedidos de la pizzería.**
 
 - 1. Productos más vendidos (pizza, panzarottis, bebidas, etc.)
 SELECT tipo, nombre, SUM(cantidad) AS total_vendidos
@@ -143,6 +143,6 @@ ORDER BY total DESC
 LIMIT 1;
 
 
-** Este modelo se preparado para futuras expansiones con relaciones muchos a muchos.
+**Este modelo se preparado para futuras expansiones con relaciones muchos a muchos.
 
-Todas las consultas suponen la existencia de tablas intermedias como pedido_producto o pedido_adicion si se desea un análisis completo. **
+Todas las consultas suponen la existencia de tablas intermedias como pedido_producto o pedido_adicion si se desea un análisis completo.**
